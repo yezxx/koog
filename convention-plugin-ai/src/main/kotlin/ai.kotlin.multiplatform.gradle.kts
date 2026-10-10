@@ -44,6 +44,7 @@ kotlin {
     iosArm64()
 
     // Tier 2
+    linuxX64()
 
     // Tier 3
     iosX64()
@@ -119,6 +120,10 @@ kotlin {
 
         jsTest {
             dependsOn(nonJvmCommonTest)
+        }
+
+        linuxMain {
+            dependsOn(nonJvmCommonMain)
         }
 
         if (isWasmJsIncluded) {
