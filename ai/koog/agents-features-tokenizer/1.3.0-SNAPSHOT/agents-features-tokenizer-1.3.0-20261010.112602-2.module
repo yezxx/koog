@@ -1,0 +1,496 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "agents-features-tokenizer",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-tokenizer-metadata-1.3.0-SNAPSHOT.jar",
+          "url": "agents-features-tokenizer-1.3.0-SNAPSHOT.jar",
+          "size": 3074,
+          "sha512": "36621a480f9ef9d3c17ddd8b3bd253bbc14f4d5b68a683a2af3d50f58c4e51e3afb5761fc9e44efaa37ef30ac5c499e9d9242712df96a45b8741cdf99c0a4b07",
+          "sha256": "124f2ecc754c4c050a6ee9a0419b28cf140375e479acea7c4b27e7d50e34424e",
+          "sha1": "54583ebed0fff2eb49a015b99809d262916e68f2",
+          "md5": "cb67158426863d50b91cfc3dbbf49b02"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "agents-features-tokenizer-kotlin-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-features-tokenizer-1.3.0-SNAPSHOT-sources.jar",
+          "size": 2454,
+          "sha512": "f0594fb0046f8103c97328100d8b58703bcbb4a8b05a23f8d8e0a6876d336cb5280f632f3ad67f6ffea3d9a36bf68db68e7d79414a1e3bbfb58f255198d11e85",
+          "sha256": "15c0a819a85892b8382431e811a4c48bac8d32db146ca8993a558c5d7496aa0f",
+          "sha1": "8d32674199a1bcc1f3340e3d15542354527eaa73",
+          "md5": "4892d28a23ceb1b93c2d0b9f50ca1359"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-android/1.3.0-SNAPSHOT/agents-features-tokenizer-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-android/1.3.0-SNAPSHOT/agents-features-tokenizer-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-android/1.3.0-SNAPSHOT/agents-features-tokenizer-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iosarm64/1.3.0-SNAPSHOT/agents-features-tokenizer-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iosarm64/1.3.0-SNAPSHOT/agents-features-tokenizer-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iosarm64/1.3.0-SNAPSHOT/agents-features-tokenizer-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iossimulatorarm64/1.3.0-SNAPSHOT/agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iossimulatorarm64/1.3.0-SNAPSHOT/agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iossimulatorarm64/1.3.0-SNAPSHOT/agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iosx64/1.3.0-SNAPSHOT/agents-features-tokenizer-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iosx64/1.3.0-SNAPSHOT/agents-features-tokenizer-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-iosx64/1.3.0-SNAPSHOT/agents-features-tokenizer-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-js/1.3.0-SNAPSHOT/agents-features-tokenizer-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-js/1.3.0-SNAPSHOT/agents-features-tokenizer-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-js/1.3.0-SNAPSHOT/agents-features-tokenizer-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-jvm/1.3.0-SNAPSHOT/agents-features-tokenizer-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-jvm/1.3.0-SNAPSHOT/agents-features-tokenizer-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-jvm/1.3.0-SNAPSHOT/agents-features-tokenizer-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-linuxx64/1.3.0-SNAPSHOT/agents-features-tokenizer-linuxx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-linuxx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-linuxx64/1.3.0-SNAPSHOT/agents-features-tokenizer-linuxx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-linuxx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-wasm-js/1.3.0-SNAPSHOT/agents-features-tokenizer-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-wasm-js/1.3.0-SNAPSHOT/agents-features-tokenizer-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-tokenizer-wasm-js/1.3.0-SNAPSHOT/agents-features-tokenizer-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-tokenizer-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    }
+  ]
+}

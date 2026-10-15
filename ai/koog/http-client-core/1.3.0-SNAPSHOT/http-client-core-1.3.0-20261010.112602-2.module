@@ -1,0 +1,482 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "http-client-core",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "http-client-core-metadata-1.3.0-SNAPSHOT.jar",
+          "url": "http-client-core-1.3.0-SNAPSHOT.jar",
+          "size": 4193,
+          "sha512": "f1a95085079f92a86e428e8f8557dacadd99f118f20b1f46dd370b83921efeaedb8b69bf0394b1ce99604408b8341a3e266cf291ebc18ae3b4aad1ed9b70d3e6",
+          "sha256": "0aacf32bbfbbe705c12461eaebb33ca1b5addb47de37999c13b2362e992213d5",
+          "sha1": "e79f0746e80d444b1e278cd9b8020a1f5b397722",
+          "md5": "97c84d791d0330bc87940cfc9c3d5e1e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "http-client-core-kotlin-1.3.0-SNAPSHOT-sources.jar",
+          "url": "http-client-core-1.3.0-SNAPSHOT-sources.jar",
+          "size": 6085,
+          "sha512": "7a04b4464bd6e48f06f88b00fa0bb8000ed1655fac006a6376f579db650881921259560bf11fa20e3ef51ddddea8e841e6e727da10eebed918c8d48374d3218d",
+          "sha256": "750d273d081a1d203b10f16edb93851fc75f76cac5f9eba0337037001148dc85",
+          "sha1": "ecfa8b388781bc8b7066ff71d9c8ac48e4fff2f9",
+          "md5": "b1b979b3fd3a8e4e7351a5d4ad973251"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../http-client-core-android/1.3.0-SNAPSHOT/http-client-core-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../http-client-core-android/1.3.0-SNAPSHOT/http-client-core-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../http-client-core-android/1.3.0-SNAPSHOT/http-client-core-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iosarm64/1.3.0-SNAPSHOT/http-client-core-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iosarm64/1.3.0-SNAPSHOT/http-client-core-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iosarm64/1.3.0-SNAPSHOT/http-client-core-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iossimulatorarm64/1.3.0-SNAPSHOT/http-client-core-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iossimulatorarm64/1.3.0-SNAPSHOT/http-client-core-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iossimulatorarm64/1.3.0-SNAPSHOT/http-client-core-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iosx64/1.3.0-SNAPSHOT/http-client-core-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iosx64/1.3.0-SNAPSHOT/http-client-core-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-iosx64/1.3.0-SNAPSHOT/http-client-core-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../http-client-core-js/1.3.0-SNAPSHOT/http-client-core-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../http-client-core-js/1.3.0-SNAPSHOT/http-client-core-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../http-client-core-js/1.3.0-SNAPSHOT/http-client-core-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../http-client-core-jvm/1.3.0-SNAPSHOT/http-client-core-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../http-client-core-jvm/1.3.0-SNAPSHOT/http-client-core-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../http-client-core-jvm/1.3.0-SNAPSHOT/http-client-core-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-linuxx64/1.3.0-SNAPSHOT/http-client-core-linuxx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-linuxx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../http-client-core-linuxx64/1.3.0-SNAPSHOT/http-client-core-linuxx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-linuxx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../http-client-core-wasm-js/1.3.0-SNAPSHOT/http-client-core-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../http-client-core-wasm-js/1.3.0-SNAPSHOT/http-client-core-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../http-client-core-wasm-js/1.3.0-SNAPSHOT/http-client-core-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "http-client-core-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    }
+  ]
+}

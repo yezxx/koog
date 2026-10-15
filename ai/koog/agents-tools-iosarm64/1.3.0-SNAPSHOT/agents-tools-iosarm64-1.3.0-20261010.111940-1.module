@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-tools/1.3.0-SNAPSHOT/agents-tools-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-tools",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "serialization-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-schema-generator-json",
+          "version": {
+            "requires": "0.4.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-tools-iosArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "agents-tools-iosarm64-1.3.0-SNAPSHOT.klib",
+          "size": 75084,
+          "sha512": "56140ae11a722b498e7cee4f2a827116541efafbbca2dcfbf0378d03938a7c9e9986eb5768c62a1b40e34dd8eba95a3356a2b5f2493a22a42989ddb3d70d39d3",
+          "sha256": "84feeb786bcce8aba6859472140536b6bc32d7c55a826f0026617ce19b4d13fd",
+          "sha1": "1240550f5d3a0d9440ceb620a574cdbcd9803abe",
+          "md5": "7696349b976731d43ebfc41657afd3d4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "agents-tools-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-tools-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 22979,
+          "sha512": "e99f1707821efa760bd77f3df655e2a1a8ad957f566d251d296cf0894a5a2658f59102f0d8dce2e7406bcb976b41dd02414c55ecbf86ef81fb295ddb525c28fb",
+          "sha256": "e9dca3be880fa3a0156114eefd810edac8cf2c7edf236671190e197a4d90e647",
+          "sha1": "14948b126681425665ee11f7b6de32a46cb2ed42",
+          "md5": "dbd95418c43ba686f5c2e2e979499f6d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "serialization-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-schema-generator-json",
+          "version": {
+            "requires": "0.4.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-tools-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "agents-tools-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "879a65f5684394317ee318c0e6a350145dbefdf3cbc19a999dafd20f94548c5ec1a36fcff1bdd0ddafb6bb53af4217de22fd3176fee01741ec4750c3645f63f3",
+          "sha256": "0bc3da8184a27574835327fea3eb317f6e71cb3b027d9a79f8bff217271f3048",
+          "sha1": "dce782fe11cd37d327a2661468a98375e87539f4",
+          "md5": "c4a4f8559ad10a265f254e58990c9b66"
+        }
+      ]
+    }
+  ]
+}

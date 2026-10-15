@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-event-handler/1.3.0-SNAPSHOT/agents-features-event-handler-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-features-event-handler",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-event-handler-linuxX64Main-1.3.0-SNAPSHOT.klib",
+          "url": "agents-features-event-handler-linuxx64-1.3.0-SNAPSHOT.klib",
+          "size": 35183,
+          "sha512": "324ea751a0082d8c587a86d8d6d5528729793660ab7c39a1f2c443f5281ad8246cc9ab43336440d81d45d9e0ea1f9406c7a946ab83f5514762fd428e76d18ddf",
+          "sha256": "c0b9e8b43ad1239593990e2f4fb2ddb97e20fb3e4b584daa2b93f5a47d015934",
+          "sha1": "f2986c7d9ccab4155ef839ee0bee85f753d428a1",
+          "md5": "1fd06b52c8f4cae6e561ed72c62e4ee8"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "agents-features-event-handler-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-features-event-handler-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 9298,
+          "sha512": "552823866076464c588428525bc85095d1df6cb07150abab3aa7e8e928ee69c6e4a724a034a93d044bff84d8cf1d450b9907b5e2cb6842ad8f4e96f220565715",
+          "sha256": "16bbccc33368879cb1a2e8bab09383a3cbddc24dc1ff3bc44fac2cf63e460bfa",
+          "sha1": "40af15b5f55882979bd7734089819f4bd491f581",
+          "md5": "dc0f9c1abbb8203dcb77cc1b1f480629"
+        }
+      ]
+    }
+  ]
+}

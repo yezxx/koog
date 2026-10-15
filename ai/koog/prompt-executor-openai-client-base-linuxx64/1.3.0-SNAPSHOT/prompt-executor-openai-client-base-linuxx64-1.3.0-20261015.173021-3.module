@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-openai-client-base/1.3.0-SNAPSHOT/prompt-executor-openai-client-base-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-openai-client-base",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "http-client-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-openai-client-base-linuxX64Main-1.3.0-SNAPSHOT.klib",
+          "url": "prompt-executor-openai-client-base-linuxx64-1.3.0-SNAPSHOT.klib",
+          "size": 164628,
+          "sha512": "26829e7a2aadcdd28a2351f07c0b43496e83e0384e3862c4130262a26a54ce54ccd3aea0eefcd84532205f7c08408d95d3538de1655a99aa27634dadc8b9e8fe",
+          "sha256": "a30b956a17485f88f2836f892f50fcde991d26aba4c9658b2ce4eba0facf382a",
+          "sha1": "05ce568450d99395d745e5dd61d724da9866ff30",
+          "md5": "81d503a5cfe0a2df3cc6c46345ea187c"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-openai-client-base-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-executor-openai-client-base-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 20704,
+          "sha512": "39a94d8d948a7599949710bc1e5f0a85db4880f16628ebff7bb2f9966cbdb4c00655137a80c9cfc0041d3bc9f127aa699534c7129dc7fae2337c2ededcb09d02",
+          "sha256": "141d8faef557c257fa1c000c0bc9e2904099ea468182552b0b521f30a983c958",
+          "sha1": "65e9a20f3820458668d0504742d1fe34105cdc8f",
+          "md5": "c20cb3ac218e93e195c1eb32f3b4dcad"
+        }
+      ]
+    }
+  ]
+}

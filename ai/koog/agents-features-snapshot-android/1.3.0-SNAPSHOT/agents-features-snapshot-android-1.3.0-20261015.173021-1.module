@@ -1,0 +1,250 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-snapshot/1.3.0-SNAPSHOT/agents-features-snapshot-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-features-snapshot",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-snapshot-release.aar",
+          "url": "agents-features-snapshot-android-1.3.0-SNAPSHOT.aar",
+          "size": 135372,
+          "sha512": "2d83207e7d5e44918f1ae1c5df48fa14538ce9bebf8a4e5c9980bd842805669610aecfdbfb99568be586f437e1df648f86da957ee6f2f1fed38fe9a52d3ca34e",
+          "sha256": "f4e16c0a059ee8017075954d1fab8003df5b0df2007353b223b88cda73400efb",
+          "sha1": "b2211f58d781e899568a5cced3bf23c3b988edcf",
+          "md5": "ef555addfeedc3fe07b7aa86d24c2630"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-snapshot-release.aar",
+          "url": "agents-features-snapshot-android-1.3.0-SNAPSHOT.aar",
+          "size": 135372,
+          "sha512": "2d83207e7d5e44918f1ae1c5df48fa14538ce9bebf8a4e5c9980bd842805669610aecfdbfb99568be586f437e1df648f86da957ee6f2f1fed38fe9a52d3ca34e",
+          "sha256": "f4e16c0a059ee8017075954d1fab8003df5b0df2007353b223b88cda73400efb",
+          "sha1": "b2211f58d781e899568a5cced3bf23c3b988edcf",
+          "md5": "ef555addfeedc3fe07b7aa86d24c2630"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "agents-features-snapshot-android-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-features-snapshot-android-1.3.0-SNAPSHOT-sources.jar",
+          "size": 22515,
+          "sha512": "f1afbc8e3487c267d96666d753b9d65940d564c532cf0b3cad6785bc79033244b6adc94a94b4e45cf2d28766648d1016ca8ac1627d12e96eeb0b435df4959bb6",
+          "sha256": "174619805779132f9d4c72ec8eab091ab47f2a0afb5510b2aa6a50836b17641a",
+          "sha1": "91f61ec12cdf2be436ea17170caff53b99030cc3",
+          "md5": "28a99a699dbf8bb7d77ed3f237619639"
+        }
+      ]
+    }
+  ]
+}

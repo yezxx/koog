@@ -1,0 +1,220 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-model/1.3.0-SNAPSHOT/prompt-executor-model-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-model",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-model-iosArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "prompt-executor-model-iosarm64-1.3.0-SNAPSHOT.klib",
+          "size": 62543,
+          "sha512": "eb06b70bd2ae20a5d50aa04ce2ea97c767362d8b614cc03ec6c464e27625a479a17fd13eac871db04e6bd2f66063935ec3348675b1b21d95a3b204ff7debe5fe",
+          "sha256": "218aed2951744a3356a1e1d9c165e228d69cc4c73f31560d251bf559b77fba66",
+          "sha1": "c4807e168ff5b59a4caa711c5c19fed548b8ae59",
+          "md5": "1541456ffb23c653228b267bcdee55b7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-model-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-executor-model-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 20740,
+          "sha512": "42be04de668410ae79da48bdcdd525420b67a1cc39e2984e506d61b4e1fb0ee275dca2aad5768d29700bec7c224c013008dc687ff8da9ed5fb4f65592cfa3dd3",
+          "sha256": "3432fe0495b1fec94601ef353bb75dbb0d2aa1b37e030109fab12696eac8bdf5",
+          "sha1": "f7be858bd05c389c2248536716794f86e096de0c",
+          "md5": "c3470e63e38535dbac31b1a0038b1368"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-model-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "prompt-executor-model-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 2434,
+          "sha512": "ab65526f27c820d2edf1d43a04f4de6c6661ee92dd48877332db1fc6378bab2b31ee5da89815b8b44efe3f40136d193ac3099a233bdf581cc6a1f3b5a05d3ce6",
+          "sha256": "932b327c43ddac098eb39980a855d3c63f9ea721ad708be51cd23a202c1bdbb7",
+          "sha1": "f8b4aacba02afe30a4a1f56df960f580a55cb441",
+          "md5": "49a0af6bb1228dde5238aaa29b11588c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-markdown/1.3.0-SNAPSHOT/prompt-markdown-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-markdown",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-markdown-release.aar",
+          "url": "prompt-markdown-android-1.3.0-SNAPSHOT.aar",
+          "size": 12851,
+          "sha512": "e1e26e19159ef4d560f663ac56083a55e4272cf3d0dc38a9ee319dde40ff5fd44dc7301aa55c6f5b5d5418c8b8980cf3cfa1611e54a0bbed19e0bbfed25e4ca2",
+          "sha256": "0819fcef78acab3575b7ad72e520b77f8841c046c8904f0560280f0a3d78c3e8",
+          "sha1": "0436593d87ce8500ec1769d596414b87a9865b49",
+          "md5": "a8ce2e43fde53d6f3423175e477f010d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-markdown-release.aar",
+          "url": "prompt-markdown-android-1.3.0-SNAPSHOT.aar",
+          "size": 12851,
+          "sha512": "e1e26e19159ef4d560f663ac56083a55e4272cf3d0dc38a9ee319dde40ff5fd44dc7301aa55c6f5b5d5418c8b8980cf3cfa1611e54a0bbed19e0bbfed25e4ca2",
+          "sha256": "0819fcef78acab3575b7ad72e520b77f8841c046c8904f0560280f0a3d78c3e8",
+          "sha1": "0436593d87ce8500ec1769d596414b87a9865b49",
+          "md5": "a8ce2e43fde53d6f3423175e477f010d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "prompt-markdown-android-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-markdown-android-1.3.0-SNAPSHOT-sources.jar",
+          "size": 4267,
+          "sha512": "ccab80e2a3f1566b010fdb222cc4325954687262c540f7a3c21413985c576a578a71ba94f8f7aa5868ac11b64e1fda31bfde53dc7f9102c09137c049cbb42c81",
+          "sha256": "648d680f756a60a0114c5ea1ba38292614619c8b812ad64e4d64036c8e9cc357",
+          "sha1": "a3c275080defc9cd88c1774ca5d262dca4e29be2",
+          "md5": "09163b7ee2278c073c8580b3ef374e61"
+        }
+      ]
+    }
+  ]
+}

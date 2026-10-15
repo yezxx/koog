@@ -1,0 +1,206 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-ext/1.3.0-beta-SNAPSHOT/agents-ext-1.3.0-beta-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-ext",
+    "version": "1.3.0-beta-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-processor",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-iosArm64Main-1.3.0-beta-SNAPSHOT.klib",
+          "url": "agents-ext-iosarm64-1.3.0-beta-SNAPSHOT.klib",
+          "size": 139713,
+          "sha512": "7e94b03fc27005355f6bfcafdf3149a8bcbea87e31eefd13f5a74b4bf37d0a913109c21211afc3f8ff7775a2aeaeca34711bdf43b7715d77e027ef535b6fb4f9",
+          "sha256": "1a0d7fc11a1397b58fbf33f2a3d5587f2458d42b1e2dc1406a7d092f7a8baf51",
+          "sha1": "1ab1cac867e8105e7b420250d557458e8afccb88",
+          "md5": "467398a0d7ade673affc2cf15568de28"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "agents-ext-iosarm64-1.3.0-beta-SNAPSHOT-sources.jar",
+          "url": "agents-ext-iosarm64-1.3.0-beta-SNAPSHOT-sources.jar",
+          "size": 27300,
+          "sha512": "4de47aca89ecd15984f467dbad75ed6d80ab028a70a776e8fe4eeaeef82e2fa263c1c837d0194153649bd997a99a39a123d0ee1df54c25091e08fddb81f58b9d",
+          "sha256": "b6fe715275b597fe2028ed7e978c5fb413f82148dedee302328768fbb108f217",
+          "sha1": "8d77dd0a21a7961f60133f1530564690aca8c1bb",
+          "md5": "4c80103cec54c3b608f90266c08fd84d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-processor",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-iosarm64-1.3.0-beta-SNAPSHOT-metadata.jar",
+          "url": "agents-ext-iosarm64-1.3.0-beta-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "27aaa4ca69e807899a81073595c69db9df8f6cbc38dd0732bce17c7c04fd891ad26d1db0a036c0a5f503be7ba291e41e3135d1a18e6fad4c5149437352b97c28",
+          "sha256": "8c0077b911a0f1f77ce4825b97807f63738adaf5065cb9bb92f68ca8c24e14f1",
+          "sha1": "bbcd5bc5d721df4a09814bcc9d5969fe321dc6ae",
+          "md5": "1ac429a4369f1124a03566c6036c9f12"
+        }
+      ]
+    }
+  ]
+}

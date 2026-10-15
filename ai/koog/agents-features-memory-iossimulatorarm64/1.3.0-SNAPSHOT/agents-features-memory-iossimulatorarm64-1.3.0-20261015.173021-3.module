@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-memory/1.3.0-SNAPSHOT/agents-features-memory-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-features-memory",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-markdown",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-memory-iosSimulatorArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "agents-features-memory-iossimulatorarm64-1.3.0-SNAPSHOT.klib",
+          "size": 18074,
+          "sha512": "23c34a01dd98b769ea94ab7ac392f7f02d4a9554c291e04888fea71cae961b1717bc22ee3d50a3ffbe516f0831cc91b3398b2db2bfffb8737e088737394d5993",
+          "sha256": "8f875fc823e7dd77fd2aa7443ca95376bd330e40a0174a5a2dd23e33778f0d7a",
+          "sha1": "ba628574ae7ccab40a69f5550df0e6b983269a59",
+          "md5": "616b4da83387d5ffd4e8f1a89387a29b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "agents-features-memory-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-features-memory-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 5605,
+          "sha512": "af8f2b720fd17f61344258b4b52ac0802a2ba51600289516e258f61e81318317f832d61d47d3fe431ac1f2dee650fc9fc3211ec03702fd2cc92ff95461f659b4",
+          "sha256": "3816b00f3694d941ee62ecc4640532e21b95843bf619f988d77a05a774f2d0ef",
+          "sha1": "3ee9274a1b8efd881304436968555b92758a896a",
+          "md5": "fe950021b2c76ae21ba583efef359ccc"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-markdown",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-memory-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "agents-features-memory-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "2daf026220c4898b7acc7753485287d752235673ddfaeb49b12e71a2773fd4152d0fa6a237fee7d139f4387bdc80118e674f29e98c093e14e340583b8e7ad90f",
+          "sha256": "45e704339bee891e57bb42658ee33769c9d7b561d01fd27297c4afcfb41cd62b",
+          "sha1": "99a70524fd84c85f611a9325bc406d4be77c79f8",
+          "md5": "5affb31d37690863d4d237239f14ecc1"
+        }
+      ]
+    }
+  ]
+}

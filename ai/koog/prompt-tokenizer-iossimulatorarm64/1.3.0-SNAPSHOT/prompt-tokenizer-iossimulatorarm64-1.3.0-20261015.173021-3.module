@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-tokenizer/1.3.0-SNAPSHOT/prompt-tokenizer-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-tokenizer",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-iosSimulatorArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "prompt-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT.klib",
+          "size": 24714,
+          "sha512": "ce52d3d48d6182e937f4be87c0f321785be9a43e842cfecf60b9665c614f45555c4d9f2aaee7a4dbdc655ee22c78862fa4035f33ee9cf62903282f8fc509ed98",
+          "sha256": "846c2c3fa170e56b5362d5ff178384c6e433d2ceb8bc0664d9db717a1e96e415",
+          "sha1": "2f1db1c1b231269fa28203f569927a31fe7cb592",
+          "md5": "82918dc6dcfe2294b5a6082fa0da4fc4"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 7054,
+          "sha512": "6b037343b97a35f31d4d92372ca6616815ca2fa323e71407c4d9f3c6d6ed6eacef7799786ad2fc0c0ce602ed487402807654d16d5ba79105dba4b45f004c00c0",
+          "sha256": "1dbb0c40b8f64d0b582bf3e3c245c1e8fd24377df6b589c23d7a48c9bf2a5633",
+          "sha1": "d8cc8d6bcbc5ae987748af6a52a11919da5a8ba8",
+          "md5": "570b556fcfb4f860933ca7ed18e42012"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "prompt-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "7d92bcc52eb6306a6c83308d7a57623ed1de7b8e281d929cf25a6d467fece6036aaaf98fd2e9feb83e3a84d8eb66083c4107e894ae446e70c16017d8a9c6b1aa",
+          "sha256": "b5d95cd966cdeaa141ee3d730eb453d3d31c61ed848f1f2632d1e76fd7debc1a",
+          "sha1": "c077c14b01b3c1537c9c26a17f7d869104dffa8d",
+          "md5": "27be992d5fe926ba04a66536d754b241"
+        }
+      ]
+    }
+  ]
+}

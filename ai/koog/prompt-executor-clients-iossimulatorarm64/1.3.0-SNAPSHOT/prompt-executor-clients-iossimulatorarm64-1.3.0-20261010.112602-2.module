@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-clients/1.3.0-SNAPSHOT/prompt-executor-clients-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-clients",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-clients-iosSimulatorArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "prompt-executor-clients-iossimulatorarm64-1.3.0-SNAPSHOT.klib",
+          "size": 51557,
+          "sha512": "8154326bc35467a54c1e19a70e1f069cbf9b32093b19e88018b6b7d63bb070b9929a1614414f1a4f10249ff75dc10eb24a0a0ea4a82754d475c8a0a7423c6bee",
+          "sha256": "a8bc45c43ca8024443bb6c67142fa6f622b777c7313d7136acf766ed8412e5bf",
+          "sha1": "44c20433d2ba009dd01cdc10c1086e9a95e0fbf1",
+          "md5": "a1398ecdded347805d9625b55b0086c5"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-clients-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-executor-clients-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 14824,
+          "sha512": "dd7b03e86ecbaf5328382876df8188915f750073a6a3a2e6b1e87a648e33c09d929864c1839547c524da93e23288f06b32b33cb9a1315ad16c72c540a2ad43c1",
+          "sha256": "5bb498ab0c359449e975e62a2ae549a228930bda0f507705bd860746f4b16a05",
+          "sha1": "3a0a7ca3dfc9d6a6c4b76c2956a65e5cd97e666d",
+          "md5": "1cc8bfb6d5274c4388047799abbeea63"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-clients-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "prompt-executor-clients-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 3218,
+          "sha512": "eaa940cf8e8695cb5a5a893895b34de93d2f10089c437c612817db20420a23fa0bd6376af81725e638e8ae12055ca694d794cabdba48912b214e31df4ade7147",
+          "sha256": "d0661f46bca9c63d25565fe78294d882087fdae8444362db21aea5c256401a2f",
+          "sha1": "85ea83df693bc2719a1b358d46cba215e22c2598",
+          "md5": "3a6fe5f8d031ee900a5cb8bb22119625"
+        }
+      ]
+    }
+  ]
+}

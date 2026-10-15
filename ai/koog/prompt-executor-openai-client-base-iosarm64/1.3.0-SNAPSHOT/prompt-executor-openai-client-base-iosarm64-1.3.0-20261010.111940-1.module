@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-openai-client-base/1.3.0-SNAPSHOT/prompt-executor-openai-client-base-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-openai-client-base",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "http-client-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-openai-client-base-iosArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "prompt-executor-openai-client-base-iosarm64-1.3.0-SNAPSHOT.klib",
+          "size": 164027,
+          "sha512": "4e300b5211257b4233e5df4ac0a89a65eb247e55863803492ac3e93de84e51db2dbe497c3dadf8cec64cb19853680ff81b3c96e266c09e56eedb916fa6679184",
+          "sha256": "7e01746d92e27df1d8266d74c37c3f8ed81089587f4a6d2f5981d9e446113e7b",
+          "sha1": "8e3ab318b627134f99769166ffbf0a79a38d8fc9",
+          "md5": "40a741391c99f14b3c49a21a51e257f8"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-openai-client-base-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-executor-openai-client-base-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 20409,
+          "sha512": "013054c921540594e6c34159a96bab511980cde40a18120d12b639cdbbeaa80148edc95300eacacb78068436c84f55df2e4f1848e65def3f80aeda87fe8ce3a1",
+          "sha256": "01e6bd35a42e674cbddd7636277f833172b15b69884a84a3c86bad71d1685bfb",
+          "sha1": "06215fced860dbc99af24e3f6a92758bcd11cb41",
+          "md5": "873d1577b7319401b0cb97e79444481d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-structure",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "http-client-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-openai-client-base-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "prompt-executor-openai-client-base-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "47913e7830cd6a7aa8433527c3bdfa9dbd910790cf528bbe1eb6357cc8a88cf60b1fc23e87f330dfa3ef9dbd16a40398d6d331452268e38a91c6ca8bcd37615c",
+          "sha256": "406d552de9619beea52310e110480ab8036baaf018873359bbb64c43c35c707c",
+          "sha1": "cf52af694792cec17c7026c49dbc050df85a69b1",
+          "md5": "516740463206080ec44c1422fd12accb"
+        }
+      ]
+    }
+  ]
+}

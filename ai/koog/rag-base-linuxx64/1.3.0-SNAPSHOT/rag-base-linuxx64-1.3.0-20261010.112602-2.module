@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rag-base/1.3.0-SNAPSHOT/rag-base-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "rag-base",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-linuxX64Main-1.3.0-SNAPSHOT.klib",
+          "url": "rag-base-linuxx64-1.3.0-SNAPSHOT.klib",
+          "size": 143412,
+          "sha512": "77a79e770b6e6cb12719aa9f2e63a1ecc48fcd0ae02f4df608dd8e1554cc30b97ba57681135ab554e31c567d9e13537af9026f3099f5a8dc328115640f1df0ec",
+          "sha256": "9482dab7f992ba1525bcca17467ed8695489b3480dd6ab17ac156c7d9ccb2453",
+          "sha1": "8ad1a4f38eedd97226e4c2ec5d46c2945287c442",
+          "md5": "f1e2b98a32496117e7821ea00fd2ec8d"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "rag-base-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "rag-base-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 31780,
+          "sha512": "95346a577ccdeac85ffe13fd8689025d308a315c47baf324afb952388a77391e1647971321b606d88f762a91e8287ea9a715ab3d02945473ac38fa7191fbcaa9",
+          "sha256": "677f92fbccbef3fbaa9a096d2a6b37d5d06e3f3f837ca5ce3fd9b9467bbabc47",
+          "sha1": "ab16e1700a205f43c5f9e9d03ba65d583e1955d7",
+          "md5": "7b1be6d639cacc71b2c0f1482cd1b39c"
+        }
+      ]
+    }
+  ]
+}

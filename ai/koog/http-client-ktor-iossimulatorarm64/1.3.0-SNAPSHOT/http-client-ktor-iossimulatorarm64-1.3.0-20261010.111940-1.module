@@ -1,0 +1,206 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../http-client-ktor/1.3.0-SNAPSHOT/http-client-ktor-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "http-client-ktor",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "http-client-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "http-client-ktor-iosSimulatorArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "http-client-ktor-iossimulatorarm64-1.3.0-SNAPSHOT.klib",
+          "size": 21985,
+          "sha512": "07d58b1e13eacfbc47ffcfb540c19a8ae3facabd3047ac4467bd3eeda240fffa7e5fe3a109b97e16a908f58dee72e2b7cef1c21142bc75ff796e72b2f9f3a3b5",
+          "sha256": "2bbfd0c9355da3477107ef117cde78116afcc34a4018bdb650219ffe3d37a078",
+          "sha1": "3ca9aea6d45847b63668d193cf88bec8c5e9b931",
+          "md5": "f6d36c45664781961b489c88868d9a91"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "http-client-ktor-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "http-client-ktor-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 4339,
+          "sha512": "f005a9bd9eec09d07c5c34790db2185b1daa222d462f2b1b155a35dd5dc57802e7498b6141ec742f43041ea126fdae25706db07eab1d6dd26c10ecbff31def10",
+          "sha256": "dead9e5477ba71898ee7262cf6d0161c952387a3e3a6246fe0d59926d5f86141",
+          "sha1": "c5725f896aca93b6cf25ec3c37713952312410fc",
+          "md5": "2f59082a3fb041d590a9a3d4f2d18d28"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "http-client-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "utils",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "http-client-ktor-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "http-client-ktor-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "0d9756e2623ea151a81a0f7830b9bc09f8ba161dbd796c6acc3e7511a792245066485bb0ba819adb3e72961d41362b4db1c315c2067fb5798a641c31dd081e40",
+          "sha256": "39b39bd57b3d28cac92448b40903505bffbbb42e0ac246285ec3a3e94caff5d8",
+          "sha1": "24a73b4692c268e76bf894c474139547a0727029",
+          "md5": "6af677ee7e49fd5cb66936df3231ad7e"
+        }
+      ]
+    }
+  ]
+}

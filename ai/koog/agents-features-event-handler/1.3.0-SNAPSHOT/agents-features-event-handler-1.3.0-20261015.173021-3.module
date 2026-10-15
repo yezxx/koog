@@ -1,0 +1,468 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "agents-features-event-handler",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-event-handler-metadata-1.3.0-SNAPSHOT.jar",
+          "url": "agents-features-event-handler-1.3.0-SNAPSHOT.jar",
+          "size": 7766,
+          "sha512": "5ba6267b5e826e699e6c8e97bc3ff478b0fa159b261a40eb9fc96b4e30338def2614e0e68ff88c22c5cc3fa97becdc70005481ba93a35eef9a2d1b8d14656b6e",
+          "sha256": "2cf5a3d83e04e9a2a77bef866447861febe522128d2fdef7c668a6bc5e888e32",
+          "sha1": "2d2df823c8373992dbd4fc6cb5ac07e79d749238",
+          "md5": "babff1ae840b16b2d474ea2488482957"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "agents-features-event-handler-kotlin-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-features-event-handler-1.3.0-SNAPSHOT-sources.jar",
+          "size": 12196,
+          "sha512": "864c057dbe0fd102a0fa82031e368bd3b59e995b48a603116081265fc52e68217aff9599032f8946ca2804b0faecd853d2be1c74075d84bd4a5c0b64922f8d6f",
+          "sha256": "0af9b7f1e8ef287a3db8b44cd48ed400bcbf6e9e1da7ed1d4edf4238eb0b184a",
+          "sha1": "032f8fc08b08edbb6dec0ccb13338f9d6cb4a658",
+          "md5": "7bcb6bd2a072b05c974c5ec6fdc5999d"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-android/1.3.0-SNAPSHOT/agents-features-event-handler-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-android/1.3.0-SNAPSHOT/agents-features-event-handler-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-android/1.3.0-SNAPSHOT/agents-features-event-handler-android-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-android",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iosarm64/1.3.0-SNAPSHOT/agents-features-event-handler-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iosarm64/1.3.0-SNAPSHOT/agents-features-event-handler-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iosarm64/1.3.0-SNAPSHOT/agents-features-event-handler-iosarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iosarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iossimulatorarm64/1.3.0-SNAPSHOT/agents-features-event-handler-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iossimulatorarm64/1.3.0-SNAPSHOT/agents-features-event-handler-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iossimulatorarm64/1.3.0-SNAPSHOT/agents-features-event-handler-iossimulatorarm64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iossimulatorarm64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iosx64/1.3.0-SNAPSHOT/agents-features-event-handler-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iosx64/1.3.0-SNAPSHOT/agents-features-event-handler-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-iosx64/1.3.0-SNAPSHOT/agents-features-event-handler-iosx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-iosx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-js/1.3.0-SNAPSHOT/agents-features-event-handler-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-js/1.3.0-SNAPSHOT/agents-features-event-handler-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-js/1.3.0-SNAPSHOT/agents-features-event-handler-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-jvm/1.3.0-SNAPSHOT/agents-features-event-handler-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-jvm/1.3.0-SNAPSHOT/agents-features-event-handler-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-jvm/1.3.0-SNAPSHOT/agents-features-event-handler-jvm-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-jvm",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-linuxx64/1.3.0-SNAPSHOT/agents-features-event-handler-linuxx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-linuxx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-linuxx64/1.3.0-SNAPSHOT/agents-features-event-handler-linuxx64-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-linuxx64",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-wasm-js/1.3.0-SNAPSHOT/agents-features-event-handler-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-wasm-js/1.3.0-SNAPSHOT/agents-features-event-handler-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-features-event-handler-wasm-js/1.3.0-SNAPSHOT/agents-features-event-handler-wasm-js-1.3.0-SNAPSHOT.module",
+        "group": "ai.koog",
+        "module": "agents-features-event-handler-wasm-js",
+        "version": "1.3.0-SNAPSHOT"
+      }
+    }
+  ]
+}

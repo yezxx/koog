@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rag-base/1.3.0-SNAPSHOT/rag-base-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "rag-base",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-iosSimulatorArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "rag-base-iossimulatorarm64-1.3.0-SNAPSHOT.klib",
+          "size": 144257,
+          "sha512": "26cb917dfdad32603106342610590f718a8bccb01aa33e3003f2c4bbca6edd0547e06c8b3dc59a1e6d9659760c5f1b6f865fd3ef43445a2a9261378616dbf1ff",
+          "sha256": "bd5a77ace5a59a4782c128e1d97b598f7109058237e0dd03105bff9faff8aaa2",
+          "sha1": "b6c3151dd769d396f6415bfcff0dba504cca9913",
+          "md5": "a5fb014303ef5810b362194fe7c19da3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "rag-base-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "rag-base-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 32254,
+          "sha512": "80495dad48f2590c9a14fc44277157548ab9b95dbcd879b175f35699a3e193925d0e6f7508d699fbf2a12ad65a41f1f34cc6a515cbc70bf513c00f45bfdb9e28",
+          "sha256": "6e315ede27868c4db9df7439ab8052d25792ce3ca4075bd8f340ca0aae3a4057",
+          "sha1": "758d94dc6dec22baae60cb958e28f921c752a23e",
+          "md5": "16f3c45ac37226865c96b1b9e1579f7c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "rag-base-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "8c9c10f85d5d6ac4c81d9851fcdcdd53df92f3d56d528efd322518d912d24cfc803439819a44b597dccb04801263b0153c8aea4d6b1bd8c49bc8b85f291fed0a",
+          "sha256": "7b5917527682ec772c33bf91e3dd96e257fe4e2e9552a5c9c357670f804fd3ad",
+          "sha1": "304a41b9ca6929ac1b4dd0e3106db3b310d1a698",
+          "md5": "392eed02c47875b38790a5553be3f0a5"
+        }
+      ]
+    }
+  ]
+}

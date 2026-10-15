@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-deepseek-client/1.3.0-beta-SNAPSHOT/prompt-executor-deepseek-client-1.3.0-beta-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-deepseek-client",
+    "version": "1.3.0-beta-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client-base",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-deepseek-client-iosSimulatorArm64Main-1.3.0-beta-SNAPSHOT.klib",
+          "url": "prompt-executor-deepseek-client-iossimulatorarm64-1.3.0-beta-SNAPSHOT.klib",
+          "size": 64370,
+          "sha512": "195adea7f955baf72de423bd3b7d09ded8b099af5e12fcda60f3e2b4486f0292360fefbc15b80317d4999b152f1f7ec245022406eb0a669d295ab34fc327cd3b",
+          "sha256": "e234b31462a9b8883015d1803a6b9cc3f56814ae280d9d4b6b6497bb1d425159",
+          "sha1": "bd53704ed161ebfd183981376640fd59d0bff1f2",
+          "md5": "a910e150913b31df8ee0c9bee1146731"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-deepseek-client-iossimulatorarm64-1.3.0-beta-SNAPSHOT-sources.jar",
+          "url": "prompt-executor-deepseek-client-iossimulatorarm64-1.3.0-beta-SNAPSHOT-sources.jar",
+          "size": 10876,
+          "sha512": "9fb6a0476414844f0421d5772864c370a303b6f827fe12e05f0c6f0e41d22f4b346242f6596450fe64f1b4c2cf157a33162ae2408b0464d4f8412dea50ee0e65",
+          "sha256": "0b20d7a0215980e1bcc4ede5c1b2df9b5ecdda791a9ca2e6b8e4e3a8ae7d338d",
+          "sha1": "9dfc9f0f755ddee0687bf7b5ded3f82f894ed0c8",
+          "md5": "5181c0b3817accddf25110cd6019f508"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client-base",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-deepseek-client-iossimulatorarm64-1.3.0-beta-SNAPSHOT-metadata.jar",
+          "url": "prompt-executor-deepseek-client-iossimulatorarm64-1.3.0-beta-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "e6ce1d6cf3a03487652bf88c0aa8fd802536fd3dba88dafee5fd9cb60a4226a4b560f3f2f972ba77e8ba757b12a0f10f75cfce28059ecc34f5169df7c22dd6b9",
+          "sha256": "ff91285e348e4c0c6ef9bd0c3bb9f74b1e850ec23aa9d3fe45e51ed10b99e919",
+          "sha1": "752ebdc911da13076e6d63575f01ddff5d87192b",
+          "md5": "cbac1837da81923d150bc2484a1cf77a"
+        }
+      ]
+    }
+  ]
+}

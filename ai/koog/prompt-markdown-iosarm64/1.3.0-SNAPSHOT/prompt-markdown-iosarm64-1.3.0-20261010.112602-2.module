@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-markdown/1.3.0-SNAPSHOT/prompt-markdown-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "prompt-markdown",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-markdown-iosArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "prompt-markdown-iosarm64-1.3.0-SNAPSHOT.klib",
+          "size": 17468,
+          "sha512": "9da28cc1107e0061425ffdeb1797a216d90c73f56329e3173d4247891c21a319496f86574ddb940d8a5de4d4b8e1dd6bdcbdea981c113047de564ebf36f62926",
+          "sha256": "c32de39ac8d0730e65cc6e0fa6d62c4d7209d65849268989ce0732abd51b22cf",
+          "sha1": "540402ab6473e6f0e9609a4c816a1e2580d0dbb3",
+          "md5": "0af1417346f6d19b5d2d2253b8af58d0"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "prompt-markdown-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "prompt-markdown-iosarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 4267,
+          "sha512": "ccab80e2a3f1566b010fdb222cc4325954687262c540f7a3c21413985c576a578a71ba94f8f7aa5868ac11b64e1fda31bfde53dc7f9102c09137c049cbb42c81",
+          "sha256": "648d680f756a60a0114c5ea1ba38292614619c8b812ad64e4d64036c8e9cc357",
+          "sha1": "a3c275080defc9cd88c1774ca5d262dca4e29be2",
+          "md5": "09163b7ee2278c073c8580b3ef374e61"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-markdown-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "prompt-markdown-iosarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "16b8f0b8bdddc5a14858f3b3c625b3ee955b8d9629c4eaa4ef9f3da44b4f8f1fc7e457bd1c6d9120a1420c128fcedc6c6c40020a64fbd20a3adf3882ced760a4",
+          "sha256": "24824426a9aee36cea986ad631c432787536e925ba42123028de2fbef404d134",
+          "sha1": "685ed88b338a15f032388381a48067c1f489ac4d",
+          "md5": "4bc781c7bc10d13177b854e1555e2bd6"
+        }
+      ]
+    }
+  ]
+}

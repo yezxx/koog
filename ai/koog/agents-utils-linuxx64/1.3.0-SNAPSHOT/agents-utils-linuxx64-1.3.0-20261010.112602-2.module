@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-utils/1.3.0-SNAPSHOT/agents-utils-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-utils",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "8.0.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-utils-linuxX64Main-1.3.0-SNAPSHOT.klib",
+          "url": "agents-utils-linuxx64-1.3.0-SNAPSHOT.klib",
+          "size": 31808,
+          "sha512": "948cec5b76556b9a5c9b554b94b4afc7d3703572a7eeebfd1f9e18194cd77acba1ca3aebdaddd37c9e23b49770a72ffb3438aba104b5335e114ab2c47cd50437",
+          "sha256": "35e8c6f782087b3a16bd7d1667a1eab553604f33ec0f064e341aaf6cc9020b66",
+          "sha1": "ce17e28a847158ba4cab3bdf7af6e3c0675fc85b",
+          "md5": "622008d80d525dd1be98fe30bd220451"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "agents-utils-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-utils-linuxx64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 8330,
+          "sha512": "cbc496ba65ba3a845b018b04fc9f8dd9b391b725a7aced5b571895baf014cbeda64111951a8b44d780403b52ba1c52fc72e1fb77a3d00d3ea410a9cbe7421f34",
+          "sha256": "7b6312e33a2783a085471f7a69458113ae5349a8a01055f69447228535613a22",
+          "sha1": "1c2bf852aa61a6c72cc0549f892cce8400006b92",
+          "md5": "7b49d01d5fa1f91b47784267bfb29e0a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-tokenizer/1.3.0-SNAPSHOT/agents-features-tokenizer-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "agents-features-tokenizer",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-tokenizer-iosSimulatorArm64Main-1.3.0-SNAPSHOT.klib",
+          "url": "agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT.klib",
+          "size": 8117,
+          "sha512": "aa1871a7c763ca54e1f985378d9a693a494bc65c8b2c3f5de3e4a32874d1a4a2ee63f05893a414d8aa490c331a899a05f8c5b3fa9a10d4e9fdaa2df17d3e847a",
+          "sha256": "f8e2caeb92646ec0081fd01273feddff5cbbf53835bda29a6967621a28a93b42",
+          "sha1": "756c76c840fbd814bd7d266218e285ede32fa0ca",
+          "md5": "d2ff2241f2feacef4c3ef0c5b4ba645e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "url": "agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-sources.jar",
+          "size": 2454,
+          "sha512": "f0594fb0046f8103c97328100d8b58703bcbb4a8b05a23f8d8e0a6876d336cb5280f632f3ad67f6ffea3d9a36bf68db68e7d79414a1e3bbfb58f255198d11e85",
+          "sha256": "15c0a819a85892b8382431e811a4c48bac8d32db146ca8993a558c5d7496aa0f",
+          "sha1": "8d32674199a1bcc1f3340e3d15542354527eaa73",
+          "md5": "4892d28a23ceb1b93c2d0b9f50ca1359"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "1.3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "url": "agents-features-tokenizer-iossimulatorarm64-1.3.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "f1e818c7841cf382d9902470b13bb51280ddf7da6f59c493de54d71634354165191945aa157d8d0644cab680b0ede004fb59fa865488fb707a66601b899840c4",
+          "sha256": "a3d40e35cf506b4dddd4bb3a411130e5f01ae4bd29ce92b5e2bf859c8c56dd8b",
+          "sha1": "dc55812f2f8c8e4968991757ce3873e30652ed44",
+          "md5": "ed497470a5cedcde97dcc0f258997f42"
+        }
+      ]
+    }
+  ]
+}

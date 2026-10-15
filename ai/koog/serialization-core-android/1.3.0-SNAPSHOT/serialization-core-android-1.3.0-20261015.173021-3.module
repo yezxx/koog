@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../serialization-core/1.3.0-SNAPSHOT/serialization-core-1.3.0-SNAPSHOT.module",
+    "group": "ai.koog",
+    "module": "serialization-core",
+    "version": "1.3.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialization-core-release.aar",
+          "url": "serialization-core-android-1.3.0-SNAPSHOT.aar",
+          "size": 46708,
+          "sha512": "42e4b1521f4c6abecbe4a0820601d5c2ffa8c096e35393095465151dee0ff862f949876f1f861d70b4daf7bbce8012fdd77aa3400a85b60436affb0f26e16c3d",
+          "sha256": "d5db39586e5893a391fe6c987987b52e190fe1045c3ef7eb823a263f09164f6c",
+          "sha1": "c45dd53833f4ec4ce945756c2c39b342ae3735b8",
+          "md5": "96ed035c788b7285972032d3da661692"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "serialization-core-release.aar",
+          "url": "serialization-core-android-1.3.0-SNAPSHOT.aar",
+          "size": 46708,
+          "sha512": "42e4b1521f4c6abecbe4a0820601d5c2ffa8c096e35393095465151dee0ff862f949876f1f861d70b4daf7bbce8012fdd77aa3400a85b60436affb0f26e16c3d",
+          "sha256": "d5db39586e5893a391fe6c987987b52e190fe1045c3ef7eb823a263f09164f6c",
+          "sha1": "c45dd53833f4ec4ce945756c2c39b342ae3735b8",
+          "md5": "96ed035c788b7285972032d3da661692"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "serialization-core-android-1.3.0-SNAPSHOT-sources.jar",
+          "url": "serialization-core-android-1.3.0-SNAPSHOT-sources.jar",
+          "size": 11112,
+          "sha512": "8ca896724d11e4dc154f8dfef91a84feb08f1b06767628a799a99817b66965069e3f2750668ee82a6dee0a7ca63a53edca5805352b6ad58abc65761187c2525c",
+          "sha256": "c4e258b139b41c959ba5eae808ea9b81c81f1a5f20c0d868abb16189b145b046",
+          "sha1": "61dca6f5b4433c34cf10d032d9f2d2881ae6e1cd",
+          "md5": "85a0d9cdc89fa51ecae98e52083433d1"
+        }
+      ]
+    }
+  ]
+}
